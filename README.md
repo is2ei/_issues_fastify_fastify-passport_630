@@ -12,12 +12,8 @@ npm i
 npm start
 ```
 
-#### 2) 
+#### 2) Access to the endpoint
 
 http://127.0.0.1:8000?username=hello&password=world
 
-#### 3) Access to another route
-
-http://127.0.0.1:8000/session-messages
-
-You will see `["try again"]`.
+You will see `Invalid password` response.
